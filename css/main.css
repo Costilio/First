@@ -35,6 +35,13 @@ nav {
 float: right;
 margin-top: 10px;
 }
+.spn_words {
+   	color: blue;
+}
+
+.spn_stranght {
+    background: #ebe9ec;
+}
 
 .menu {
 	padding: 0;
