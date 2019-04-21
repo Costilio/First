@@ -108,9 +108,11 @@ h1 {
 .title_box {
 	position: absolute;
 	height: 357px;
-    top: 296px;
+    top: 50%;
     left: 0;
+    margin-top: -179px;
     }
+
 section {
 		background-color: #131218;
 }
