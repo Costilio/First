@@ -1,0 +1,171 @@
+body {
+	font-family: Arial, sans-serif; 
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+header {
+	background: #f2f2f2;
+		}
+	
+
+.container {
+	width: 1450px;
+	margin: 0 auto;
+}
+
+.logo {
+margin-top: 10px;
+float: left;
+
+}
+
+nav {
+float: right;
+margin-top: 10px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 48px;
+
+}
+.menu a {
+	color: #000;
+	text-decoration: none;
+    font-size: 14px;
+}
+
+.menu p {
+	margin-top: 0px;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+.titles_lft {
+     color: #000;
+     text-align: left;
+     height: 948px;
+     background-repeat: no-repeat;
+     background-image: url(../img/iphone_1.png);
+     background-position: right bottom;
+     position: relative;
+
+}
+
+h1 {
+	font-size: 40px;
+	color: #000;
+    text-align: left;
+    margin-top: 0;
+
+   }
+
+.titles_lft2{
+	color: #000;
+	text-align: left;
+}
+.button {
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 3px;
+	display: block;
+	width: 306px;
+	padding: 10px 0;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+.title_box {
+	position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -141px;
+}
+section {
+		background-color: #131218;
+}
+
+.screen_2 {
+	height: 792px;
+	background-repeat: no-repeat;
+	background-image: url(../img/iphone_2.png);
+	background-position: left 158px top 116px;
+	position: relative;
+
+}
+.text_form {
+	position: absolute;
+	left: 40%;
+	top: 116px;
+}
+
+ .text_form h2 {
+ 	color: #fff;
+	text-align: left;
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.text_form li {
+ 	color: #fff;
+ 	text-align: left;
+    font-size: 22px;
+	list-style: none;
+	margin-bottom: 15px;
+}
+.text_form_s{
+	position: absolute;
+	left: 40%;
+	top: 368px;
+}
+.text_form_s h2 {
+    color: #66bbff; 
+	text-align: left;
+    font-size: 26px;
+}
+.text_form_s li {
+	color: #fff;
+	text-align: left;
+	font-size: 22px;
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.name_button {
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 3px;
+	display: block;
+	width: 310px;
+	padding: 10px 0;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 50px;
+	
+}
