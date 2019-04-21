@@ -19,6 +19,10 @@ header {
 	background: #f2f2f2;
 		}
 	
+#portfolio {
+	background: #f2f2f2;
+
+}	
 
 .container {
 	width: 1450px;
@@ -88,7 +92,7 @@ h1 {
 
    }
 
-.titles_lft2{
+.titles_lft2 {
 	color: #000;
 	text-align: left;
 }
@@ -176,4 +180,8 @@ section {
 	text-align: left;
 	margin-top: 50px;
 	
+}
+#services {
+	background: #fff;
+	height: 4096px;
 }
