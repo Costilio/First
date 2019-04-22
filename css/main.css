@@ -183,27 +183,25 @@ h1 {
 }
 #services {
 	background: #fff;
-	height: 2000px;
 	
 }
 .choosing {
-	position: relative;
+	
 }
 
 .spn_words_light {
 	color: #56aef4;
 }
 .choosing_gadget {
-    position: absolute; 
-    left: 30%;
-	top: 125px;
+  
 
 }
 .choosing_gadget h2 {
 	color: #000;
 	text-align: center;
 	font-size: 40px;
-	margin-top: 60px;
+	margin: 0;
+	
 }
 
 .choosing_gadget p {
@@ -213,10 +211,7 @@ h1 {
 	}
 
 .type_gadget {
-	position: absolute;
-	list-style: none;
-	left: 25%;
-	top: 335px;
+	
 }
 
 .button_type {
@@ -244,9 +239,7 @@ h1 {
 	font-weight: bold;
 }
 .model_gadget {
-	position: absolute;
-	left: 30%;
-	top: 402px;
+	
 		
 }
 .model_gadget li {
