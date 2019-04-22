@@ -30,17 +30,17 @@ header {
 }
 
 .logo {
-margin-top: 10px;
-float: left;
+     margin-top: 10px;
+     float: left;
 
 }
 
 nav {
-float: right;
-margin-top: 10px;
+     float: right;
+     margin-top: 10px;
 }
 .spn_words {
-   	color: blue;
+   	  color: blue;
 }
 
 .spn_stranght {
@@ -96,7 +96,7 @@ h1 {
 	color: #000;
 	text-align: left;
 }
-.button {
+.button_diag {
 	background: #fff;
 	color: #000;
 	border: 1px solid #000;
@@ -116,7 +116,7 @@ h1 {
     margin-top: -178.5px;
     }
 
-section {
+#feedback {
 		background-color: #131218;
 }
 
@@ -183,5 +183,87 @@ section {
 }
 #services {
 	background: #fff;
-	height: 4096px;
+	height: 2000px;
+	
+}
+.choosing {
+	position: relative;
+}
+
+.spn_words_light {
+	color: #56aef4;
+}
+.choosing_gadget {
+    position: absolute; 
+    left: 30%;
+	top: 125px;
+
+}
+.choosing_gadget h2 {
+	color: #000;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 60px;
+}
+
+.choosing_gadget p {
+	color: #000;
+	text-align: center;
+	font-size: 22px;
+	}
+
+.type_gadget {
+	position: absolute;
+	list-style: none;
+	left: 25%;
+	top: 335px;
+}
+
+.button_type {
+	background: #fff;
+	color: #56aef4;
+	border: 1px solid #56aef4;
+	border-radius: 3px;
+	display: block;
+	width: 115px;
+	padding: 4px 0;
+	text-decoration: none;
+	text-align: center;
+}
+
+.type_gadget li {
+    display: block;
+	margin-right: 73px;
+	display: inline;
+}
+
+.type_gadget a {
+	color: #000;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+}
+.model_gadget {
+	position: absolute;
+	left: 30%;
+	top: 402px;
+		
+}
+.model_gadget li {
+    display: block;
+	margin-right: 64px;
+	list-style: none;
+	display: inline;
+}
+
+.model_gadget a {
+	color: #c2c2c2;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.button_model {
+	color: #000;
+
+
 }
