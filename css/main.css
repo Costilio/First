@@ -212,26 +212,32 @@ h1 {
 	font-size: 22px;
 	}
 
-.type_gadget {
-	
-}
 
 .button_type {
 	background: #fff;
 	color: #56aef4;
 	border: 1px solid #56aef4;
 	border-radius: 3px;
-	display: block;
-	width: 115px;
+	display: inline;
+	width: 120px;
 	padding: 4px 0;
 	text-decoration: none;
 	text-align: center;
 }
+.type_gadget ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+}
 
 .type_gadget li {
-    display: block;
-	margin-right: 73px;
-	display: inline;
+   	margin-right: 73px;
+	display: inline-block;
+
 }
 
 .type_gadget a {
@@ -240,10 +246,7 @@ h1 {
 	font-size: 24px;
 	font-weight: bold;
 }
-.model_gadget {
-	
-		
-}
+
 .model_gadget li {
     display: block;
 	margin-right: 64px;
@@ -258,7 +261,62 @@ h1 {
 }
 
 .button_model {
+	background: #fff;
+	color: #56aef4;
+	border: 1px solid #56aef4;
+	border-radius: 3px;
+	display: inline;
+	width: 38px;
+	padding: 5px;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 20px;
+	border: 1px solid #c8c8c8;
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 904px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 104px;
+    border-spacing: 20px;
+}
+
+td , th {  
+    border: 1px solid #c8c8c8;
+    height: 117px; 
+    padding: 5px;
+    text-align: center;
+   
+  }
+
+.font_table p {
+	font-weight: bold;
+}
+.total_serv {
+	font-size: 18px;
+	color: #56aef4;
+}
+.form_serv {
 	color: #000;
-
-
+	font-size: 14px;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+.call_serv_button {
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 3px;
+	display: block;
+	width: 310px;
+	padding: 10px 0;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 50px;
 }
