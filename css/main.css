@@ -1,5 +1,47 @@
+@font-face {
+
+font-family: 'HelveticaNeueCyr';
+
+src: url('../fonts/HelveticaNeueCyr-Black.eot');
+
+src: url('../fonts/HelveticaNeueCyr-Black.eot?#iefix') format('eot'),
+
+url('../fonts/HelveticaNeueCyr-Black.woff') format('woff'),
+
+url('../fonts/HelveticaNeueCyr-Black.ttf') format('truetype'),
+
+url('../fonts/HelveticaNeueCyr-Black.svg#webfont') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+@font-face {
+
+font-family: 'HelveticaNeueCyr-Bold';
+
+src: url('../fonts/HelveticaNeueCyr-Bold.eot');
+
+src: url('../fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('eot'),
+
+url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'),
+
+url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype'),
+
+url('../fonts/HelveticaNeueCyr-Bold.svg#webfont') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+
+
 body {
-	font-family: Arial, sans-serif; 
+	font-family: HelveticaNeueCyr, sans-serif; 
 	padding: 0;
 	margin: 0;
 }
@@ -313,7 +355,7 @@ h1 {
 	height: 119px;
 	border-radius: 5px;
 	float: left;
-	margin-left: 23px;
+	margin-right: 23px;
 	margin-bottom: 20px;
 
 }
@@ -327,23 +369,43 @@ h1 {
 .service_block {
 	   width: 195px;
 	   border-right: 1px solid #ccc; 
-	   font-size: 16px;
-       float: left;
+	   float: left;
        height: 100%;
        padding: 20px;
 }
+.service_table_title {
+	 color: #211f25;
+     font-size: 18px;
+     text-align: left;
+}
+.service_table_color {
+       color: #211f25;
+       font-size: 18px;
+       text-align: left;
+       padding-bottom: 20px;
+}
 
-.service_table_price{
-        font-size: 18px;
+.service_table_price {
+	    color: #282828;
+        font-size: 20px;
         font-weight: bold;
-        padding-top: 20px;
-
+      
 }
 .service_block_time_title {
 	position: absolute;
     width: 100%;
     top: 50%;
     margin-top: -16px;
+}
+.service_block_time_number {
+	color: #000;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.service_block_time_number_title {
+    color: #000;
+	font-size: 18px;
+
 }
 
 .block_table_item.item_selected {
