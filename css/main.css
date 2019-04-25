@@ -8,7 +8,7 @@ div {
 	box-sizing: border-box;
 }
 
-.clearfix:after {
+.clearfix::after {
 	content:'';
 	display: table;
 	width: 100%;
@@ -306,6 +306,7 @@ h1 {
 	width: 285px;
 	height: 119px;
 	border-radius: 5px;
+	float: left;
 }
 .service_block_time {
      float: left;
@@ -322,15 +323,60 @@ h1 {
        padding: 20px;
 
 }
-.service_block_time_title{
+.service_block_time_title {
 	position: absolute;
     width: 100%;
     top: 50%;
     margin-top: -16px;
 }
 
-.block_table_item .item_selected {
+.block_table_item.item_selected {
 	-webkit-box-shadow:-1px 0px 10px 0px rgba(165,211,253,1);
     -moz-box-shadow:-1px 0px 10px 0px rgba(165,211,253,1);
     box-shadow:-1px 0px 10px 0px rgba(165,211,253,1);
+    border-color: #158cfb;
+}
+.block_table_item.item_selected .service_block {
+	border-color: #158cfb;
+}
+.block_table_item_last {
+	background: #fff;
+	color: #000;
+	border: 1px solid #ccc;
+	width: 285px;
+	height: 119px;
+	border-radius: 5px;
+	float: left;
+}
+
+.global-form-ft-box {
+    background: #fff;
+	color: #000;
+	border: 1px solid #ccc;
+	width: 450px;
+	height: 700px;
+	border-radius: 5px;
+	float:right;
+}
+
+.global-form-ft-box {
+	background-color: #f5f5f5;
+}
+
+.form_title {
+	color: #000;
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+
+}
+.form_service_title {
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+}
+.personal_title {
+	color: #000;
+	font-size: 14px;
+	text-align: left;
 }
