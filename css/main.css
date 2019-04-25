@@ -299,6 +299,12 @@ h1 {
 	text-align: center;
 	margin-top: 50px;
 }
+.global-table-ft-box {
+    width: 910px;
+    float: left; 
+}
+
+
 .block_table_item {
 	background: #fff;
 	color: #000;
