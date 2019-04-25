@@ -300,7 +300,7 @@ h1 {
 	margin-top: 50px;
 }
 .global-table-ft-box {
-    width: 910px;
+    width: 930px;
     float: left; 
 }
 
@@ -313,6 +313,9 @@ h1 {
 	height: 119px;
 	border-radius: 5px;
 	float: left;
+	margin-left: 23px;
+	margin-bottom: 20px;
+
 }
 .service_block_time {
      float: left;
@@ -324,9 +327,16 @@ h1 {
 .service_block {
 	   width: 195px;
 	   border-right: 1px solid #ccc; 
+	   font-size: 16px;
        float: left;
        height: 100%;
        padding: 20px;
+}
+
+.service_table_price{
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 20px;
 
 }
 .service_block_time_title {
@@ -345,22 +355,12 @@ h1 {
 .block_table_item.item_selected .service_block {
 	border-color: #158cfb;
 }
-.block_table_item_last {
-	background: #fff;
-	color: #000;
-	border: 1px solid #ccc;
-	width: 285px;
-	height: 119px;
-	border-radius: 5px;
-	float: left;
-}
 
 .global-form-ft-box {
     background: #fff;
 	color: #000;
 	border: 1px solid #ccc;
 	width: 450px;
-	height: 700px;
 	border-radius: 5px;
 	float:right;
 }
