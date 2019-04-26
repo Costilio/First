@@ -95,11 +95,9 @@
        <section id="services"> 
              <div class="container">
              	<div class="choosing">
-             		<div class="choosing_gadget">
-             	<h2>Выберите модель Вашего<br>
-             		IPhone, iPad или MacBook и неисправность</br>
-             	</h2>
-             	<p>Никаких скрытых платежей, <span class="spn_words_light">цена = деталь + работа + выезд мастера</span></p>
+             		<div class="choosing_gadget">Выберите модель Вашего</div>
+             		<div class="choosing_gadget_and_service">IPhone, iPad или MacBook и неисправность</div>
+                <p>Никаких скрытых платежей, <span class="spn_words_light">цена = деталь + работа + выезд мастера</span></p>
              </div>
             
             <div class="type_gadget">
@@ -388,18 +386,27 @@
        		<div class="form_title"> Вызовите мастера </div> 
         	<div class="form_service_title"> Ремонт IPhone за 20 мин при Вас </div> 
         </div>
+	<div class="form_service_title_gadget">
+        <input type="text" name="gadget" maxlength="16" placeholder="iPhone 5">
+    </div>
+    <div class="form_service_title_work">
+      	<input type="text" name="serv" maxlength="16" placeholder="Замена корпуса">
+    </div>
 
-      	<input type="text" name="gadget" maxlength="12" placeholder="iPhone 5"><br>
-      	<input type="text" name="serv" maxlength="16" placeholder="Замена корпуса"><br>
       <div class="form_serv">
-      	<p> Цена ремонта: <span class="total_serv"> 4990 руб</span></p></br>
+      	<p> Цена ремонта: <span class="total_serv"> 4990 руб</span></p>
       </div>
-      <input type="text" name="serv" maxlength="16" placeholder="Ваше имя"><br>
-      <input type="text" name="serv" maxlength="16" placeholder="+7 (_ _ _) _ _ _ - _ _ _ _"></br>
-      <div class="call_serv">
-        	  <a class="call_serv_button" href="#">Вызвать мастера</a>
+      <div class="form_serv_name">
+      <input type="text" name="serv" maxlength="16" placeholder="Ваше имя">
+      </div>
+      <div class="form_serv_phone">
+      <input type="text" name="serv" maxlength="16" placeholder="+7 (_ _ _) _ _ _ - _ _ _ _">
+      </div>
 
-        <div class="personal_title"> Нажимая на кнопку "Вызвать мастера", я даю согласие на обработку персональных данных и соглашаюсь с условиями договора-оферты и политикой конфиденциальности </div> 
+      <button class="call_serv_button">Вызвать мастера</button>
+
+      <div class="personal_title"> Нажимая на кнопку "Вызвать мастера", я даю согласие на обработку персональных данных и соглашаюсь с условиями договора-оферты и политикой конфиденциальности 
+      </div> 
 
   </form>
     </div>

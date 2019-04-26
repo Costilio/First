@@ -229,30 +229,36 @@ h1 {
 }
 .choosing {
 	margin-top: 122px;
-	margin-bottom: 85px;
-	
+		
 }
 
 .spn_words_light {
 	color: #56aef4;
 }
-.choosing_gadget {
-  
 
+.choosing_gadget {
+	color: #000;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 120px;
+	margin-bottom: 15px;
+	
 }
-.choosing_gadget h2 {
+
+.choosing_gadget_and_service {
 	color: #000;
 	text-align: center;
 	font-size: 40px;
 	margin: 0;
-	
+	margin-bottom: 50px;
 }
 
-.choosing_gadget p {
+.choosing p {
 	color: #000;
 	text-align: center;
 	font-size: 22px;
-	}
+	margin-bottom: 80px;
+}
 
 
 .button_type {
@@ -266,6 +272,10 @@ h1 {
 	text-decoration: none;
 	text-align: center;
 }
+.type_gadget {
+    margin-bottom: 50px; 
+}
+
 .type_gadget ul {
 	margin: 0;
 	padding: 0;
@@ -287,6 +297,10 @@ h1 {
 	text-decoration: none;
 	font-size: 24px;
 	font-weight: bold;
+}
+
+.model_gadget {
+    margin-bottom: 80px;
 }
 
 .model_gadget li {
@@ -318,34 +332,12 @@ h1 {
 .font_table p {
 	font-weight: bold;
 }
-.total_serv {
-	font-size: 18px;
-	color: #56aef4;
-}
-.form_serv {
-	color: #000;
-	font-size: 14px;
-	text-align: left;
-	margin: 0;
-	padding: 0;
-}
-.call_serv_button {
-	background: #fff;
-	color: #000;
-	border: 1px solid #000;
-	border-radius: 3px;
-	display: block;
-	width: 310px;
-	padding: 10px 0;
-	text-decoration: none;
-	text-align: center;
-	margin-top: 50px;
-}
+
+
 .global-table-ft-box {
     width: 930px;
     float: left; 
 }
-
 
 .block_table_item {
 	background: #fff;
@@ -359,6 +351,7 @@ h1 {
 	margin-bottom: 20px;
 
 }
+
 .service_block_time {
      float: left;
      width: 87px;
@@ -366,6 +359,7 @@ h1 {
      text-align: center;
      position: relative;
 }
+
 .service_block {
 	   width: 195px;
 	   border-right: 1px solid #ccc; 
@@ -373,11 +367,13 @@ h1 {
        height: 100%;
        padding: 20px;
 }
+
 .service_table_title {
 	 color: #211f25;
      font-size: 18px;
      text-align: left;
 }
+
 .service_table_color {
        color: #211f25;
        font-size: 18px;
@@ -391,6 +387,7 @@ h1 {
         font-weight: bold;
       
 }
+
 .service_block_time_title {
 	position: absolute;
     width: 100%;
@@ -402,6 +399,7 @@ h1 {
 	font-size: 18px;
 	padding-bottom: 5px;
 }
+
 .service_block_time_number_title {
     color: #000;
 	font-size: 18px;
@@ -414,21 +412,20 @@ h1 {
     box-shadow:-1px 0px 10px 0px rgba(165,211,253,1);
     border-color: #158cfb;
 }
+
 .block_table_item.item_selected .service_block {
 	border-color: #158cfb;
 }
 
 .global-form-ft-box {
     background: #fff;
+    background-color: #f5f5f5;
 	color: #000;
 	border: 1px solid #ccc;
-	width: 450px;
+	width: 460px;
 	border-radius: 5px;
-	float:right;
-}
-
-.global-form-ft-box {
-	background-color: #f5f5f5;
+	float:left;
+	
 }
 
 .form_title {
@@ -436,15 +433,106 @@ h1 {
 	font-size: 22px;
 	text-align: center;
 	font-weight: bold;
-
+	margin-top: 45px;
+	margin-bottom: 25px;
 }
+
 .form_service_title {
 	color: #000;
 	font-size: 18px;
 	text-align: center;
+	margin-bottom: 30px;
 }
+
+.form_service_title_work input {
+	color: #000;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	display: block;
+	width: 350px;
+	padding: 15px;
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 30px;
+	margin-left: 35px; 
+	
+}
+
+.form_service_title_gadget input {
+    color: #000;
+    border: 1px solid #fff;
+	border-radius: 5px;
+	display: block;
+	width: 350px;
+	padding: 15px;
+	font-size: 16px;
+    text-align: left;
+	margin-bottom: 30px;
+    margin-left: 35px; 
+}
+
+.total_serv {
+	font-size: 18px;
+	color: #56aef4;
+}
+.form_serv {
+	color: #000;
+	font-size: 14px;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+.form_serv_name input {
+    color: #000;
+    border: 1px solid #fff;
+	border-radius: 5px;
+	display: block;
+	width: 350px;
+	padding: 15px;
+	font-size: 16px;
+    text-align: left;
+	margin-bottom: 30px;
+    margin-left: 35px; 
+
+} 
+.form_serv_phone input {
+	color: #000;
+    border: 1px solid #fff;
+	border-radius: 5px;
+	display: block;
+	width: 350px;
+	padding: 15px;
+	font-size: 16px;
+    text-align: left;
+	margin-bottom: 30px;
+    margin-left: 35px; 
+}
+
+.call_serv_button {
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid #000;
+	border-radius: 5px;
+	display: block;
+	width: 390px;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+	text-decoration: none;
+	text-align: center;
+	margin-left: 35px; 
+	margin-bottom: 20px;
+}
+
 .personal_title {
 	color: #000;
 	font-size: 14px;
 	text-align: left;
+	background: #f5f5f5;
+	width: 360px;
+	margin-left: 55px;
+	margin-bottom: 50px; 
 }
