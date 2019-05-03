@@ -81,8 +81,9 @@ nav {
      float: right;
      margin-top: 10px;
 }
+
 .spn_words {
-   	  color: blue;
+   	  color: #4193d4;
 }
 
 .spn_stranght {
@@ -113,7 +114,7 @@ nav {
 	color: #000;
 	font-size: 16px;
 	font-weight: bold;
-
+	
 }
 
 .titles_lft {
@@ -127,45 +128,60 @@ nav {
 
 }
 
-h1 {
+.title_box h1 {
 	font-size: 40px;
 	color: #000;
     text-align: left;
     margin-top: 0;
+    margin-bottom: 10px;
+}
 
-   }
+.title_box h2 {
+	font-size: 40px;
+	color: #000;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
 
 .titles_lft2 {
 	color: #000;
 	text-align: left;
 }
+.titles_lft2 p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
 
 .button_diag {
 	background: #fff;
 	color: #000;
+	font-size: 20px;
 	border: 1px solid #000;
-	border-radius: 3px;
+	border-radius: 5px;
 	display: block;
 	width: 306px;
-	padding: 10px 0;
+	padding: 20px;
 	text-decoration: none;
 	font-weight: bold;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 80px;
 }
+
 .title_box {
 	position: absolute;
 	top: 50%;
     left: 0;
     margin-top: -178.5px;
-    }
+ }
 
 #feedback {
-		background-color: #131218;
+	background-color: #131218;
 }
 
 .screen_2 {
-	height: 792px;
+	height: 760px;
 	background-repeat: no-repeat;
 	background-image: url(../img/iphone_2.png);
 	background-position: left 158px top 116px;
@@ -182,19 +198,29 @@ h1 {
  	color: #fff;
 	text-align: left;
 	font-size: 40px;
+	padding: 0;
 	margin-top: 0;
-	margin-bottom: 40px;
+	margin-bottom: 5px;
 }
+ .text_form p {
+ 	color: #fff;
+	text-align: left;
+	font-size: 40px;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
 
 .text_form li {
  	color: #fff;
  	text-align: left;
-    font-size: 22px;
+    font-size: 20px;
 	list-style: none;
 	margin-bottom: 15px;
 }
 
-.text_form_s{
+.text_form_s {
 	position: absolute;
 	left: 40%;
 	top: 368px;
@@ -204,64 +230,83 @@ h1 {
     color: #66bbff; 
 	text-align: left;
     font-size: 26px;
+    margin-bottom: 25px;
 }
 
 .text_form_s li {
 	color: #fff;
 	text-align: left;
-	font-size: 22px;
+	font-size: 20px;
 	list-style: none;
 	margin-bottom: 15px;
 }
 
-.name_button {
+.feedback_information {
+	width: 1000px;
+	position: absolute;
+	top: 74%;
+	left: 40%;
+} 
+
+.name_information input {
 	background: #fff;
 	color: #000;
 	border: 1px solid #000;
 	border-radius: 5px;
 	display: block;
-	width: 295px;
-	padding: 10px 0;
+	width: 260px;
+	padding: 15px 0;
 	text-decoration: none;
     text-align: left;
-    padding-top: 15px;
-    padding-bottom: 15px; 
-    padding-left: 15px;
     float: left;
-		
+    outline: none;
 }
 
-.number_button {
-    background: #fff;
+.number_information input {
+	background: #fff;
 	color: #000;
 	border: 1px solid #000;
 	border-radius: 5px;
 	display: block;
-	width: 295px;
-	padding: 10px 0;
+	width: 260px;
+	padding: 15px 0;
 	text-decoration: none;
     text-align: left;
-    padding-top: 15px;
-    padding-bottom: 15px; 
-    padding-left: 15px;
     float: left;
-	
+    margin-left: 20px; 
+	outline: none;
 }
-.call_button {
+
+.call_master_information button {
 	background: #000;
 	color: #fff;
 	border: 1px solid #fff;
 	border-radius: 5px;
 	display: block;
-	width: 295px;
-	padding: 10px 0;
+	width: 260px;
+	padding: 15px 0;
 	text-decoration: none;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px; 
-    padding-left: 15px;
+    margin-left: 20px; 
     float: left;
+    outline: none;
 }
+.checkbox {
+	width: 700px;
+    display: inline-block;
+    float: left;
+    padding-top: 20px; 
+    text-align: left;
+}
+#personal_information {
+  background-color: #fff;
+
+}
+.checkbox label {
+	color: #c1c1c2;
+    font-size: 14px;
+}
+
 
 #services {
 	background: #fff;
@@ -314,6 +359,7 @@ h1 {
 
 .type_gadget {
     margin-bottom: 50px; 
+    margin-left: 19%;
 }
 
 .type_gadget ul {
@@ -340,6 +386,7 @@ h1 {
 
 .model_gadget {
     margin-bottom: 80px;
+    margin-left: 10%;
 }
 
 .model_gadget li {
@@ -359,10 +406,10 @@ h1 {
 	background: #fff;
 	color: #56aef4;
 	border: 1px solid #56aef4;
-	border-radius: 3px;
+	border-radius: 5px;
 	display: inline;
 	width: 38px;
-	padding: 5px;
+	padding: 10px;
 	text-decoration: none;
 	text-align: center;
 }
@@ -431,6 +478,7 @@ h1 {
     top: 50%;
     margin-top: -16px;
 }
+
 .service_block_time_number {
 	color: #000;
 	font-size: 18px;
@@ -492,6 +540,7 @@ h1 {
 	text-align: left;
 	margin-bottom: 30px;
 	margin-left: 35px; 
+	outline: none;
 	
 }
 
@@ -506,6 +555,7 @@ h1 {
     text-align: left;
 	margin-bottom: 30px;
     margin-left: 35px; 
+    outline: none;
 }
 
 .total_serv {
@@ -532,6 +582,7 @@ h1 {
     text-align: left;
 	margin-bottom: 30px;
     margin-left: 35px; 
+    outline: none;
 
 } 
 .form_serv_phone input {
@@ -545,6 +596,7 @@ h1 {
     text-align: left;
 	margin-bottom: 30px;
     margin-left: 35px; 
+    outline: none;
 }
 
 .call_serv_button {
@@ -562,6 +614,7 @@ h1 {
 	text-align: center;
 	margin-left: 35px; 
 	margin-bottom: 20px;
+	outline: none;
 }
 
 .personal_title {
@@ -589,3 +642,8 @@ h1 {
 	margin-bottom: 15px;
 
 }
+/*@media (min-width:px)
+{
+.container { width: 600px;
+ }
+}*/
