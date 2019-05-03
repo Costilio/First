@@ -298,10 +298,12 @@ nav {
     padding-top: 20px; 
     text-align: left;
 }
+
 #personal_information {
   background-color: #fff;
 
 }
+
 .checkbox label {
 	color: #c1c1c2;
     font-size: 14px;
@@ -622,26 +624,42 @@ nav {
 	font-size: 14px;
 	text-align: left;
 	background: #f5f5f5;
-	width: 360px;
-	margin-left: 55px;
+	width: 390px;
+	margin-left: 40px;
 	margin-bottom: 50px; 
 }
 
-.service_help {
+.service_help p {
 	color: #000;
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 15px;
-
 }
-.service_help_contact {
+
+
+.service_help_contact p {
 	color: #000;
 	font-size: 20px;
     text-align: center;
 	margin-bottom: 15px;
 
 }
+
+.footer_text {
+	color: #d42889;
+}
+
+.footer_maket {
+	background-color: #e3dfe1;
+	min-height: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+.footer_maket p {
+	padding-top: 50px;
+}
+
 /*@media (min-width:px)
 {
 .container { width: 600px;
