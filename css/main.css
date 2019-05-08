@@ -79,6 +79,7 @@ header {
     float: left;
 	
 }
+
 .heading_logo {
 	   width: 100px;
 	   border-right: 1px solid #f2f2f2; 
@@ -104,6 +105,23 @@ header {
 .logo {
     float: left;
     margin-top: 8px;
+}
+
+.smart_logo {
+	background: #f2f2f2;
+	color: #000;
+	border: 1px solid #f2f2f2;
+	width: 180px;
+    float: left;
+
+}
+
+.smart_picture {
+       width: 20px;
+	   border-right: 1px solid #f2f2f2; 
+	   float: left;
+       height: 100%;
+
 }
 
 
