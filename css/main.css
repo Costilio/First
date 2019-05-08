@@ -39,7 +39,6 @@ font-style: bold;
 }
 
 
-
 body {
 	font-family: HelveticaNeueCyr, sans-serif; 
 	padding: 0;
@@ -50,7 +49,7 @@ div {
 	box-sizing: border-box;
 }
 
-.clearfix::after {
+.clearfix:after {
 	content:'';
 	display: table;
 	width: 100%;
@@ -60,22 +59,53 @@ div {
 header {
 	background: #f2f2f2;
 		}
-	
-#portfolio {
-	background: #f2f2f2;
-
-}	
 
 .container {
 	width: 1450px;
 	margin: 0 auto;
 }
 
-.logo {
-     margin-top: 10px;
-     float: left;
+	
+#portfolio {
+	background: #f2f2f2;
 
+}	
+
+.DVC_logo {
+	background: #f2f2f2;
+	color: #000;
+	border: 1px solid #f2f2f2;
+	width: 450px;
+    float: left;
+	
 }
+.heading_logo {
+	   width: 100px;
+	   border-right: 1px solid #f2f2f2; 
+	   float: left;
+       height: 100%;
+}
+
+.heading_title {
+	background: #f2f2f2;
+     float: left;
+     width: 330px;
+     height: 100%;
+     text-align: left;
+     margin-top: 15px;
+     margin-left: 10px;
+}
+
+.heading_title p {
+	font-size: 16px;
+	color: #000;
+}
+
+.logo {
+    float: left;
+    margin-top: 8px;
+}
+
 
 nav {
      float: right;
@@ -92,7 +122,7 @@ nav {
 
 .menu {
 	padding: 0;
-	margin: 0;
+	margin-top: 6px;
 	display: block;
 }
 
@@ -152,7 +182,6 @@ nav {
 	font-size: 20px;
 	margin-bottom: 20px;
 }
-
 
 .button_diag {
 	background: #fff;
@@ -663,14 +692,13 @@ footer {
 	padding-top: 50px;
 }
 
-@media (min-width:1150px)
+/* @media (min-width:1150px)
 {
 .container { width: 992px;
  }
 #portfolio {
 	background: #f2f2f2;
 }
-
 .feedback_information {
 	width: 600px;
 }
@@ -678,19 +706,15 @@ footer {
 	display: block;
 	width: 170px;
 	padding: 10px 0;
-	
 }
-
 .number_information input {
 	width: 170px;
 	padding: 10px 0;
 
 }
-
 .call_master_information button {
 	width: 170px;
 	padding: 10px 0;
-	
 }
 .checkbox {
 	width: 500px;
@@ -698,5 +722,5 @@ footer {
     float: left;
     padding-top: 20px; 
     text-align: left;
-
 }
+}*/
