@@ -337,6 +337,7 @@ nav {
     margin-left: 20px; 
     float: left;
     outline: none;
+    cursor: pointer;
 }
 .checkbox {
 	width: 700px;
@@ -664,6 +665,7 @@ nav {
 	margin-left: 35px; 
 	margin-bottom: 20px;
 	outline: none;
+	cursor: pointer;
 }
 
 .personal_title {
@@ -674,6 +676,10 @@ nav {
 	width: 390px;
 	margin-left: 40px;
 	margin-bottom: 50px; 
+}
+
+.call_help {
+    margin-top: 100px;
 }
 
 .service_help p {
@@ -710,13 +716,204 @@ footer {
 	padding-top: 50px;
 }
 
-/* @media (min-width:1150px)
+@media (max-width: 1150px)
 {
-.container { width: 992px;
+.container { width: 100%;
  }
-#portfolio {
+
+ #portfolio {
 	background: #f2f2f2;
 }
+
+.heading_title {
+	 background: #f2f2f2;
+     float: left;
+     width: 210px;
+     height: 100%;
+     text-align: left;
+     margin-top: 15px;
+     margin-left: 5px;
+}
+
+.DVC_logo {
+	background: #f2f2f2;
+	color: #000;
+	border: 1px solid #f2f2f2;
+	width: 380px;
+    float: left;
+	}
+
+.logo {
+    float: left;
+    margin-top: 8px;
+    width: 80%;
+  
+}
+
+.smart_logo {
+	background: #f2f2f2;
+	color: #000;
+	border: 1px solid #f2f2f2;
+	width: 140px;
+    float: left;
+    
+}
+
+.smart_picture {
+       width: 20px;
+	   border-right: 1px solid #f2f2f2; 
+	   float: left;
+           
+}
+.smart_logo_pic {
+	width: 40%;
+
+}
+
+.heading_title p {
+	font-size: 14px;
+	color: #000;
+}
+
+.menu li {
+	float: none;
+	display: block;
+	margin-left: 5px;
+	margin-top: 5px;
+
+}
+
+.menu a {
+	color: #000;
+	text-decoration: none;
+    font-size: 14px;
+
+}
+
+.menu p {
+	margin-top: 0px;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+.titles_lft {
+     color: #000;
+     text-align: left;
+     height: 948px;
+     background-repeat: no-repeat;
+     background-image: url(../img/iphone_1.png);
+     background-position: left;
+     position: relative;
+
+}
+
+.title_box h1 {
+	font-size: 32px;
+	color: #000;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.title_box h2 {
+	font-size: 32px;
+	color: #000;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titles_lft2 {
+	color: #000;
+	text-align: left;
+}
+
+.titles_lft2 p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+
+.title_box {
+	position: absolute;
+	top: 50%;
+    left: 0;
+
+ }
+
+.screen_2 {
+	height: 900px;
+	background-repeat: no-repeat;
+	background-image: url(../img/iphone_2.png);
+	background-position: left 158px top 116px;
+	position: relative;
+
+}
+.text_form {
+	position: absolute;
+	left: 40%;
+	top: 10%;
+
+}
+
+ .text_form h2 {
+ 	color: #fff;
+	text-align: left;
+	font-size: 32px;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+ .text_form p {
+ 	color: #fff;
+	text-align: left;
+	font-size: 32px;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+
+.text_form li {
+ 	color: #fff;
+ 	text-align: left;
+    font-size: 20px;
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.text_form_s {
+	position: absolute;
+	left: 40%;
+	top: 368px;
+}
+
+.text_form_s h2 {
+    color: #66bbff; 
+	text-align: left;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.text_form_s li {
+	color: #fff;
+	text-align: left;
+	font-size: 20px;
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.feedback_information {
+	width: 600px;
+	position: absolute;
+	top: 74%;
+	left: 40%;
+} 
+
+
+
 .feedback_information {
 	width: 600px;
 }
@@ -741,4 +938,4 @@ footer {
     padding-top: 20px; 
     text-align: left;
 }
-}*/
+}
